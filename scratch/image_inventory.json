@@ -1,0 +1,659 @@
+{
+  "html": [
+    {
+      "file": "404.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Chekku Mill Traditional Facility",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "alt": "K. Periasamy",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "alt": "Dr. Meenakshi Sundaram",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "alt": "R. Chandran",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "alt": "Ananya Periasamy",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+      "alt": "Lakshmi Ramanathan",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80\""
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80",
+      "alt": "Vigneshwaran K.",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+      "alt": "Gopalakrishnan S.",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "about.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80",
+      "alt": "K. Periasamy",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Vaagai Wood Pestle Turning in Granite Mortar",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80",
+      "alt": "Granite Mortar and Wood Pestle",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Fresh Raw Cold Pressed Oil Streaming",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Sesame Oil and Palm Jaggery",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "High Heat Groundnut Cooking",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "alt": "K. Periasamy",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=90&q=80",
+      "alt": "Recent 1",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=90&q=8"
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=90&q=80",
+      "alt": "Recent 2",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=90&q=80\" "
+    },
+    {
+      "file": "blog-details.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80",
+      "alt": "Vaagai Wood Chekku Timber Selection",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80",
+      "alt": "Author",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=8"
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80",
+      "alt": "Chemical Solvent vs Cold Press",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Sesame Oil with Palm Jaggery",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Smoke Point of Cold Pressed Oils",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Coconut Oil Purity Test",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\""
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=100&q=80\""
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=100&q="
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=100&q="
+    },
+    {
+      "file": "blog.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "coming-soon.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "contact.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "contact.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "dashboard.html",
+      "tag": "img",
+      "src": "assets/logos/favicon.svg",
+      "alt": "Chekku Logo",
+      "snippet": "<img src=\"assets/logos/favicon.svg\" alt=\"Chekku Logo\">"
+    },
+    {
+      "file": "dashboard.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80",
+      "alt": "Admin Avatar",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=200&q=80",
+      "alt": "Groundnut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=200&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=200&q=80",
+      "alt": "Gingelly Sesame Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=200&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80",
+      "alt": "Virgin Coconut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80\""
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=200&q=80",
+      "alt": "Kachi Ghani Mustard Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=200&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Vaagai Wood Chekku Pestle",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cooking Oils Collection",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Ayurvedic Wellness Oils",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Specialty Oils",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\""
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "alt": "Master Miller Inspection",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&q=80",
+      "alt": "Pristine Cold Pressed Oil Bottling",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&q="
+    },
+    {
+      "file": "home-2.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Traditional Chekku Cold Pressed Oil Extraction",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Wooden Chekku Machinery and Copra Seeds",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Marachekku Groundnut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold Pressed Sesame Oil with Palm Jaggery",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Cold Pressed Coconut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\""
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80",
+      "alt": "Kachi Ghani Cold Pressed Mustard Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "alt": "Sangeetha Natarajan",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "alt": "Chef Arvind Menon",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "alt": "Dr. Rajeshwari K.",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q="
+    },
+    {
+      "file": "index.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "login.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "login.html",
+      "tag": "img",
+      "src": "assets/logos/favicon.svg",
+      "alt": "Chekku Icon",
+      "snippet": "<img src=\"assets/logos/favicon.svg\" alt=\"Chekku Icon\" width=\"56\" height=\"56\" class=\"mb-3\">"
+    },
+    {
+      "file": "pricing.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "pricing.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Seed Selection and Sun Drying",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q=80",
+      "alt": "Seed Cleaning and Sieving",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Vaagai Wood Chekku Extraction",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Natural Sun Sedimentation",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+      "alt": "Cotton Filtration and Lab Testing",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Hygienic Bottling and Packaging",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "process.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Wood-Pressed Groundnut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold-Pressed Sesame Oil with Palm Jaggery",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Raw Cold-Pressed Virgin Coconut Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\""
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80",
+      "alt": "Kachi Ghani Cold-Pressed Mustard Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold-Pressed Sunflower Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
+      "alt": "Pure Cold-Pressed Castor Oil",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q="
+    },
+    {
+      "file": "products.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "register.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "register.html",
+      "tag": "img",
+      "src": "assets/logos/favicon.svg",
+      "alt": "Chekku Icon",
+      "snippet": "<img src=\"assets/logos/favicon.svg\" alt=\"Chekku Icon\" width=\"56\" height=\"56\" class=\"mb-3\">"
+    },
+    {
+      "file": "service-details.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "service-details.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Chekku Contract Milling Facility",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "service-details.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    },
+    {
+      "file": "services.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\">"
+    },
+    {
+      "file": "services.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Cold Pressed Oil Manufacturing Facility",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "services.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Wooden Chekku Milling Services",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\""
+    },
+    {
+      "file": "services.html",
+      "tag": "img",
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Oil Packaging and Bottling",
+      "snippet": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q="
+    },
+    {
+      "file": "services.html",
+      "tag": "img",
+      "src": "assets/logos/logo.svg",
+      "alt": "Vaagai Chekku Logo",
+      "snippet": "<img src=\"assets/logos/logo.svg\" alt=\"Vaagai Chekku Logo\" class=\"brand-logo-img\" height=\"50\">"
+    }
+  ],
+  "css": [
+    {
+      "file": "css\\dark-mode.css",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1920&q=80"
+    },
+    {
+      "file": "css\\style.css",
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1920&q=80"
+    },
+    {
+      "file": "css\\style.css",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1920&q=80"
+    },
+    {
+      "file": "css\\style.css",
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1920&q=80"
+    }
+  ]
+}

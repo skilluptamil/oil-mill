@@ -1,0 +1,400 @@
+{
+  "index.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Traditional Chekku Cold Pressed Oil Extraction",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80\" alt=\"Traditional Chekku Cold Pressed Oil Extraction\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Wooden Chekku Machinery and Copra Seeds",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Wooden Chekku Machinery and Copra Seeds\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 440px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Marachekku Groundnut Oil",
+      "heading": "Our Pure Cold-Pressed Oils",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"Marachekku Groundnut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold Pressed Sesame Oil with Palm Jaggery",
+      "heading": "Wood-Pressed Groundnut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80\" alt=\"Cold Pressed Sesame Oil with Palm Jaggery\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Cold Pressed Coconut Oil",
+      "heading": "Cold-Pressed Sesame Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\" alt=\"Virgin Cold Pressed Coconut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80",
+      "alt": "Kachi Ghani Cold Pressed Mustard Oil",
+      "heading": "Raw Cold-Pressed Coconut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80\" alt=\"Kachi Ghani Cold Pressed Mustard Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "alt": "Sangeetha Natarajan",
+      "heading": "What Our Patrons Say",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80\" alt=\"Sangeetha Natarajan\" class=\"testimonial-avatar\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "alt": "Chef Arvind Menon",
+      "heading": "Sangeetha Natarajan",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80\" alt=\"Chef Arvind Menon\" class=\"testimonial-avatar\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "alt": "Dr. Rajeshwari K.",
+      "heading": "Chef Arvind Menon",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80\" alt=\"Dr. Rajeshwari K.\" class=\"testimonial-avatar\">"
+    }
+  ],
+  "home-2.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=200&q=80",
+      "alt": "Groundnut Oil",
+      "heading": "Pure Marachekku Oils Pressed by Wood, Nourished by Nature.",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=200&q=80\" alt=\"Groundnut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=200&q=80",
+      "alt": "Gingelly Sesame Oil",
+      "heading": "Groundnut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=200&q=80\" alt=\"Gingelly Sesame Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80",
+      "alt": "Virgin Coconut Oil",
+      "heading": "Gingelly Sesame",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80\" alt=\"Virgin Coconut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=200&q=80",
+      "alt": "Kachi Ghani Mustard Oil",
+      "heading": "Virgin Coconut",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=200&q=80\" alt=\"Kachi Ghani Mustard Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Vaagai Wood Chekku Pestle",
+      "heading": "Natural Palm Jaggery Catalyst",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Vaagai Wood Chekku Pestle\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 480px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cooking Oils Collection",
+      "heading": "Specialty Oil Categories",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"Cooking Oils Collection\" class=\"w-100\" style=\"height: 220px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Ayurvedic Wellness Oils",
+      "heading": "Everyday Kitchen Staples",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80\" alt=\"Ayurvedic Wellness Oils\" class=\"w-100\" style=\"height: 220px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Specialty Oils",
+      "heading": "Ayurvedic Wellness &amp; Body Oils",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\" alt=\"Virgin Specialty Oils\" class=\"w-100\" style=\"height: 220px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "alt": "Master Miller Inspection",
+      "heading": "4. Open Mill Policy",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80\" alt=\"Master Miller Inspection\" class=\"rounded-4 shadow-sm w-100\" style=\"height: 250px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&q=80",
+      "alt": "Pristine Cold Pressed Oil Bottling",
+      "heading": "4. Open Mill Policy",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=400&q=80\" alt=\"Pristine Cold Pressed Oil Bottling\" class=\"rounded-4 shadow-sm w-100\" style=\"height: 250px; object-fit: cover;\">"
+    }
+  ],
+  "about.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Chekku Mill Traditional Facility",
+      "heading": "1,200+",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Chekku Mill Traditional Facility\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 420px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "alt": "K. Periasamy",
+      "heading": "Meet the Stewards of Our Mill",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80\" alt=\"K. Periasamy\" class=\"rounded-4 mb-3 w-100\" style=\"height: 240px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "alt": "Dr. Meenakshi Sundaram",
+      "heading": "K. Periasamy",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80\" alt=\"Dr. Meenakshi Sundaram\" class=\"rounded-4 mb-3 w-100\" style=\"height: 240px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "alt": "R. Chandran",
+      "heading": "Dr. Meenakshi S.",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80\" alt=\"R. Chandran\" class=\"rounded-4 mb-3 w-100\" style=\"height: 240px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "alt": "Ananya Periasamy",
+      "heading": "R. Chandran",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80\" alt=\"Ananya Periasamy\" class=\"rounded-4 mb-3 w-100\" style=\"height: 240px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+      "alt": "Lakshmi Ramanathan",
+      "heading": "Trusted by Generations of Families",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80\" alt=\"Lakshmi Ramanathan\" class=\"testimonial-avatar\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80",
+      "alt": "Vigneshwaran K.",
+      "heading": "Lakshmi Ramanathan",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80\" alt=\"Vigneshwaran K.\" class=\"testimonial-avatar\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+      "alt": "Gopalakrishnan S.",
+      "heading": "Vigneshwaran K.",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80\" alt=\"Gopalakrishnan S.\" class=\"testimonial-avatar\">"
+    }
+  ],
+  "services.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Cold Pressed Oil Manufacturing Facility",
+      "heading": "Commercial Cold-Pressed Oil Production",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80\" alt=\"Cold Pressed Oil Manufacturing Facility\" class=\"rounded-4 shadow-md w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Wooden Chekku Milling Services",
+      "heading": "100% Traceability",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Wooden Chekku Milling Services\" class=\"rounded-4 shadow-md w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Oil Packaging and Bottling",
+      "heading": "Hygienic Bottling &amp; Custom Packaging",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80\" alt=\"Oil Packaging and Bottling\" class=\"rounded-4 shadow-md w-100\" style=\"height: 380px; object-fit: cover;\">"
+    }
+  ],
+  "service-details.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Chekku Contract Milling Facility",
+      "heading": "ISO 22000",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Chekku Contract Milling Facility\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 400px; object-fit: cover;\">"
+    }
+  ],
+  "products.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Wood-Pressed Groundnut Oil",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"Wood-Pressed Groundnut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold-Pressed Sesame Oil with Palm Jaggery",
+      "heading": "Wood-Pressed Groundnut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80\" alt=\"Cold-Pressed Sesame Oil with Palm Jaggery\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Raw Cold-Pressed Virgin Coconut Oil",
+      "heading": "Cold-Pressed Sesame (Gingelly) Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\" alt=\"Raw Cold-Pressed Virgin Coconut Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80",
+      "alt": "Kachi Ghani Cold-Pressed Mustard Oil",
+      "heading": "Raw Cold-Pressed Coconut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=600&q=80\" alt=\"Kachi Ghani Cold-Pressed Mustard Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q=80",
+      "alt": "Cold-Pressed Sunflower Oil",
+      "heading": "Kachi Ghani Mustard Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q=80\" alt=\"Cold-Pressed Sunflower Oil\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
+      "alt": "Pure Cold-Pressed Castor Oil",
+      "heading": "Cold-Pressed Sunflower Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80\" alt=\"Pure Cold-Pressed Castor Oil\">"
+    }
+  ],
+  "process.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Seed Selection and Sun Drying",
+      "heading": "Selection of Superior Native Seeds",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80\" alt=\"Seed Selection and Sun Drying\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q=80",
+      "alt": "Seed Cleaning and Sieving",
+      "heading": "99.8% Seed Purity Guarantee",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q=80\" alt=\"Seed Cleaning and Sieving\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "alt": "Vaagai Wood Chekku Extraction",
+      "heading": "Zero",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80\" alt=\"Vaagai Wood Chekku Extraction\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 400px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80",
+      "alt": "Natural Sun Sedimentation",
+      "heading": "Natural Sedimentation &amp; Sunlight Settling",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80\" alt=\"Natural Sun Sedimentation\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+      "alt": "Cotton Filtration and Lab Testing",
+      "heading": "Unbleached Cotton Cloth Filtration &amp; Lab Audits",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80\" alt=\"Cotton Filtration and Lab Testing\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "alt": "Hygienic Bottling and Packaging",
+      "heading": "UV-Shielded Bottling &amp; Safe Nationwide Delivery",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80\" alt=\"Hygienic Bottling and Packaging\" class=\"rounded-4 shadow-lg w-100\" style=\"height: 380px; object-fit: cover;\">"
+    }
+  ],
+  "pricing.html": [],
+  "blog.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80",
+      "alt": "Vaagai Wood Chekku Timber Selection",
+      "heading": "Oil Wisdom &amp; Culinary Health Hub",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80\" alt=\"Vaagai Wood Chekku Timber Selection\" class=\"w-100\" style=\"height: 380px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80",
+      "alt": "Author",
+      "heading": "Why Vaagai Wood (Albizia Lebbeck) is the Best for Cold-Pressed Chekku Oils",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80\" alt=\"Author\" class=\"rounded-circle\" width=\"36\" height=\"36\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80",
+      "alt": "Chemical Solvent vs Cold Press",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80\" alt=\"Chemical Solvent vs Cold Press\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Sesame Oil with Palm Jaggery",
+      "heading": "Cold-Pressed vs Refined Oils: The Shocking Truth Behind Chemical Solvents",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80\" alt=\"Sesame Oil with Palm Jaggery\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Smoke Point of Cold Pressed Oils",
+      "heading": "Why Traditional Sesame Oil is Always Crushed with Palm Jaggery (Karupatti)",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"Smoke Point of Cold Pressed Oils\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80",
+      "alt": "Virgin Coconut Oil Purity Test",
+      "heading": "The Smoke Point Myth: Can You Safely Deep Fry in Cold-Pressed Groundnut Oil?",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=600&q=80\" alt=\"Virgin Coconut Oil Purity Test\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "heading": "Most Read Articles",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=100&q=80\" alt=\"Thumb\" class=\"rounded-3\" width=\"70\" height=\"70\" style=\"object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "heading": "Why Vaagai Wood is Best for Chekku",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=100&q=80\" alt=\"Thumb\" class=\"rounded-3\" width=\"70\" height=\"70\" style=\"object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=100&q=80",
+      "alt": "Thumb",
+      "heading": "Gingelly Oil Pulling for Oral Health",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=100&q=80\" alt=\"Thumb\" class=\"rounded-3\" width=\"70\" height=\"70\" style=\"object-fit: cover;\">"
+    }
+  ],
+  "blog-details.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80",
+      "alt": "K. Periasamy",
+      "heading": "Why Vaagai Wood (Albizia Lebbeck) is the Best for Cold-Pressed Chekku Oils",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80\" alt=\"K. Periasamy\" class=\"rounded-circle\" width=\"50\" height=\"50\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Vaagai Wood Pestle Turning in Granite Mortar",
+      "heading": "By K. Periasamy",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1200&q=80\" alt=\"Vaagai Wood Pestle Turning in Granite Mortar\" class=\"w-100\" style=\"max-height: 480px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80",
+      "alt": "Granite Mortar and Wood Pestle",
+      "heading": "1. The Thermodynamics of Wood vs. Steel",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80\" alt=\"Granite Mortar and Wood Pestle\" class=\"rounded-3 w-100\" style=\"height: 220px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "Fresh Raw Cold Pressed Oil Streaming",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"Fresh Raw Cold Pressed Oil Streaming\" class=\"rounded-3 w-100\" style=\"height: 220px; object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80",
+      "alt": "Sesame Oil and Palm Jaggery",
+      "heading": "Related Articles You May Like",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=600&q=80\" alt=\"Sesame Oil and Palm Jaggery\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "alt": "High Heat Groundnut Cooking",
+      "heading": "Why Traditional Sesame Oil is Crushed with Palm Jaggery",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80\" alt=\"High Heat Groundnut Cooking\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "alt": "K. Periasamy",
+      "heading": "The Smoke Point Myth: Deep Frying in Cold-Pressed Groundnut Oil",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80\" alt=\"K. Periasamy\" class=\"rounded-circle mb-3\" width=\"90\" height=\"90\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=90&q=80",
+      "alt": "Recent 1",
+      "heading": "Recent Posts",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=90&q=80\" alt=\"Recent 1\" class=\"rounded-3\" width=\"60\" height=\"60\" style=\"object-fit: cover;\">"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=90&q=80",
+      "alt": "Recent 2",
+      "heading": "The Shocking Truth Behind Chemical Solvents",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=90&q=80\" alt=\"Recent 2\" class=\"rounded-3\" width=\"60\" height=\"60\" style=\"object-fit: cover;\">"
+    }
+  ],
+  "contact.html": [],
+  "login.html": [],
+  "register.html": [],
+  "dashboard.html": [
+    {
+      "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80",
+      "alt": "Admin Avatar",
+      "heading": "None",
+      "imgTag": "<img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80\" alt=\"Admin Avatar\" class=\"dash-user-avatar\">"
+    }
+  ],
+  "404.html": [],
+  "coming-soon.html": []
+}

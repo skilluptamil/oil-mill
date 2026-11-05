@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore 100% pure, unrefined, authentic wooden Chekku cold-pressed oils. Groundnut, Sesame, Virgin Coconut, Kachi Ghani Mustard, Sunflower, and Castor oils.">
+  <meta name="keywords" content="cold pressed oil products, wood pressed groundnut oil, sesame oil price, virgin coconut oil, pure castor oil">
+  <title>Our Oil Products | Vaagai Chekku Cold-Pressed Oil Mill</title>
+  
+  <link rel="icon" type="image/svg+xml" href="assets/logos/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
+  <link rel="stylesheet" href="css/rtl.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Header & Navigation Bar -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="assets/logos/logo.svg" alt="Vaagai Chekku Logo" class="brand-logo-img">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarChekku" aria-controls="navbarChekku" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-3"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarChekku">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>Home</span>
+                <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+                  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home 1 <span class="badge bg-success">General</span></a></li>
+                <li><a class="dropdown-item" href="home-2.html">Home 2 <span class="badge bg-warning text-dark">Niche Oil Mill</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><span>About Us</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html"><span>Services</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html"><span>Pricing</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"><span>Blog</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><span>Contact Us</span></a>
+            </li>
+          </ul>
+
+          <div class="navbar-actions">
+            <button type="button" class="rtl-toggle-btn" aria-label="Toggle LTR / RTL Direction" title="Toggle Layout Direction">
+              <i class="bi bi-arrow-left-right"></i>
+              <span class="rtl-text">RTL</span>
+            </button>
+            <button type="button" class="theme-toggle-btn" aria-label="Toggle Dark / Light Mode" title="Toggle Theme">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+            <a href="contact.html#bulk-enquiry" class="btn-nav-enquire">
+              <span>Enquire Now</span>
+              <i class="bi bi-arrow-right-short fs-5"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <div class="section-tag" style="background: rgba(255,255,255,0.15); color: #F5B025; border-color: rgba(245,176,37,0.4);">
+        <i class="bi bi-droplet-fill"></i> Unfiltered Pure Lipids
+      </div>
+      <h1>Our Pure Cold-Pressed Oils</h1>
+      <p>Crushed slowly below 40°C in traditional Vaagai wooden Chekkus with organic palm jaggery. 100% natural and unrefined.</p>
+      <div class="breadcrumb-custom">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span class="active">Products</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section with Filter & Search -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      
+      <!-- Search & Filter Controls -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-lg-6 col-md-8">
+          <div class="input-group shadow-sm">
+            <span class="input-group-text bg-surface border-end-0 text-muted"><i class="bi bi-search"></i></span>
+            <input type="text" class="form-control border-start-0" id="productSearchInput" placeholder="Search oil by name (e.g. Groundnut, Sesame, Coconut)...">
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-tabs-wrapper">
+        <button type="button" class="filter-btn active" data-filter="all">All Oils</button>
+        <button type="button" class="filter-btn" data-filter="groundnut">Groundnut Oil</button>
+        <button type="button" class="filter-btn" data-filter="sesame">Sesame (Gingelly)</button>
+        <button type="button" class="filter-btn" data-filter="coconut">Virgin Coconut</button>
+        <button type="button" class="filter-btn" data-filter="mustard">Mustard Oil</button>
+        <button type="button" class="filter-btn" data-filter="sunflower">Sunflower Oil</button>
+        <button type="button" class="filter-btn" data-filter="castor">Castor Oil</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="row g-4" id="productsCatalogGrid">
+        
+        <!-- 1. Groundnut Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="groundnut" id="groundnut-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1549978113-29eb25c8177f?auto=format&fit=crop&w=600&q=80" alt="Wood-Pressed Groundnut Oil from Native Peanuts">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">Vaagai Wood Press</span>
+                <span class="badge-gold">Kitchen Essential</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Marachekku Kadalai Ennai</div>
+              <h3 class="product-title">Wood-Pressed Groundnut Oil</h3>
+              <p class="product-desc">
+                Extracted from hand-graded, sun-cured native groundnuts. Imparts a rich nutty taste, natural sweetness, and exceptional high heat stability for daily Indian cooking.
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">500ml Glass</span>
+                <span class="size-pill">1L Amber Glass</span>
+                <span class="size-pill">5L Tin</span>
+                <span class="size-pill">15L Commercial</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$9.50 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Wood-Pressed Groundnut Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Sesame (Gingelly) Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="sesame" id="sesame-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1778048840964-d221d23b86ee?auto=format&fit=crop&w=600&q=80" alt="Cold-Pressed Sesame (Gingelly) Oil Crushed with Palm Jaggery">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">Palm Jaggery Blended</span>
+                <span class="badge-gold">Ayurvedic Grade</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Marachekku Nallennai</div>
+              <h3 class="product-title">Cold-Pressed Sesame (Gingelly) Oil</h3>
+              <p class="product-desc">
+                Crushed with traditional Karupatti (organic palm jaggery) to eliminate raw bitterness while enhancing zinc, calcium, and antioxidant sesamol content.
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">500ml Glass</span>
+                <span class="size-pill">1L Amber Glass</span>
+                <span class="size-pill">5L Tin</span>
+                <span class="size-pill">15L Commercial</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$12.00 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Cold-Pressed Sesame Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Coconut Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="coconut" id="coconut-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1588413335367-e49d32c5b50b?auto=format&fit=crop&w=600&q=80" alt="Raw Cold-Pressed Virgin Coconut Oil from Pollachi Copra">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">Sun-Dried Whole Copra</span>
+                <span class="badge-gold">Sulfur-Free</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Marachekku Thengai Ennai</div>
+              <h3 class="product-title">Raw Cold-Pressed Coconut Oil</h3>
+              <p class="product-desc">
+                Prepared from naturally sun-dried whole copra without sulfur fumigation. Packed with healthy lauric acid and medium-chain fatty acids for hair, skin, and wellness.
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">500ml Glass</span>
+                <span class="size-pill">1L Glass</span>
+                <span class="size-pill">5L Tin</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$11.50 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Raw Cold-Pressed Coconut Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Mustard Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="mustard" id="mustard-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1701188543419-f2e932565056?auto=format&fit=crop&w=600&q=80" alt="Kachi Ghani Cold-Pressed Mustard Oil from Organic Mustard">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">Kachi Ghani Raw</span>
+                <span class="badge-gold">High Pungency</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Kadugu Ennai / Sarson Ka Tel</div>
+              <h3 class="product-title">Kachi Ghani Mustard Oil</h3>
+              <p class="product-desc">
+                Slowly cold-crushed black mustard seeds retaining allyl isothiocyanate. Naturally antibacterial, robust pungent aroma, ideal for pickling and curries.
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">500ml</span>
+                <span class="size-pill">1 Litre</span>
+                <span class="size-pill">5 Litres</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$10.00 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Kachi Ghani Mustard Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Sunflower Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="sunflower" id="sunflower-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q=80" alt="Cold-Pressed Sunflower Oil from Fresh Sunflower Seeds">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">High Oleic Variety</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Suriyakanthi Ennai</div>
+              <h3 class="product-title">Cold-Pressed Sunflower Oil</h3>
+              <p class="product-desc">
+                Extracted from organic sunflower kernels without chemical dewaxing. Clear golden tint, subtle taste, rich in natural Vitamin E (alpha-tocopherol).
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">1 Litre</span>
+                <span class="size-pill">5 Litres</span>
+                <span class="size-pill">15 Litre Tin</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$9.00 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Cold-Pressed Sunflower Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Castor Oil -->
+        <div class="col-md-6 col-lg-4 product-grid-item" data-category="castor" id="castor-oil">
+          <div class="product-card">
+            <div class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80" alt="Pure Cold-Pressed Castor Oil in Amber Glass">
+              <div class="product-badge-overlay">
+                <span class="badge-pure">Pure Amanakku Ennai</span>
+                <span class="badge-gold">Ricinoleic Acid 90%</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat-tag">Vilakkenai / Amanakku</div>
+              <h3 class="product-title">Cold-Pressed Pure Castor Oil</h3>
+              <p class="product-desc">
+                Dense, therapeutic-grade castor oil extracted from selected native castor beans. Excellent for deep eyebrow/eyelash nourishment, joint soothing, and hair thickness.
+              </p>
+              <div class="product-sizes">
+                <span class="size-pill">250ml Glass</span>
+                <span class="size-pill">500ml Glass</span>
+                <span class="size-pill">1 Litre</span>
+              </div>
+              <div class="product-footer">
+                <div class="product-price">$13.50 <span>/ Litre</span></div>
+                <button type="button" class="btn-enquire-product" data-product-name="Cold-Pressed Pure Castor Oil" data-bs-toggle="modal" data-bs-target="#quickEnquiryModal">
+                  <i class="bi bi-envelope"></i> Enquire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- No Products Notice State -->
+      <div id="noProductsNotice" class="text-center py-5" style="display: none;">
+        <i class="bi bi-emoji-neutral fs-1 text-muted"></i>
+        <h4 class="mt-3 text-dark">No matching oil product found</h4>
+        <p class="text-muted">Try searching with another keyword or reset the category filter.</p>
+        <button class="btn btn-outline-custom" onclick="document.getElementById('productSearchInput').value=''; document.querySelector('.filter-btn[data-filter=\'all\']').click();">Reset Filters</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Quick Enquiry Modal -->
+  <div class="modal fade" id="quickEnquiryModal" tabindex="-1" aria-labelledby="quickEnquiryModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quickEnquiryModalLabel3"><i class="bi bi-droplet-half text-warning me-2"></i> Quick Product Enquiry</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <form id="modalQuickEnquiryForm">
+            <div class="mb-3">
+              <label for="enquiryModalOilType" class="form-label">Selected Oil Product</label>
+              <input type="text" class="form-control" id="enquiryModalOilType" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="modalEnquiryName" class="form-label">Your Name *</label>
+              <input type="text" class="form-control" id="modalEnquiryName" placeholder="Full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="modalEnquiryPhone" class="form-label">Phone Number *</label>
+              <input type="tel" class="form-control" id="modalEnquiryPhone" placeholder="+91 98765 43210" required>
+            </div>
+            <div class="mb-3">
+              <label for="modalEnquiryQty" class="form-label">Preferred Pack Size</label>
+              <select class="form-select" id="modalEnquiryQty">
+                <option value="1 Litre">1 Litre</option>
+                <option value="5 Litres">5 Litres</option>
+                <option value="15 Litre Commercial Tin">15 Litre Commercial Tin</option>
+                <option value="Bulk Wholesale Enquiry">Bulk Wholesale Enquiry</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary-custom w-100">Submit Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 footer-brand">
+          <img src="assets/logos/logo.svg" alt="Vaagai Chekku Logo" class="brand-logo-img" height="50">
+          <p>
+            Preserving traditional wooden Chekku oil extraction heritage. Our cold-pressed oils are 100% natural, unrefined, and chemical-free, keeping the vitality of organic seeds intact.
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-success"><i class="bi bi-shield-check"></i> FSSAI Certified</span>
+            <span class="badge bg-warning text-dark"><i class="bi bi-tree"></i> Vaagai Wood Press</span>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-widget-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home 1</a></li>
+            <li><a href="home-2.html"><i class="bi bi-chevron-right"></i> Home 2</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i> Our Services</a></li>
+            <li><a href="process.html"><i class="bi bi-chevron-right"></i> Extraction Process</a></li>
+            <li><a href="pricing.html"><i class="bi bi-chevron-right"></i> Pricing &amp; Packs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-widget-title">Our Cold-Pressed Oils</h5>
+          <ul class="footer-links">
+            <li><a href="products.html?category=groundnut#groundnut-oil"><i class="bi bi-chevron-right"></i> Wood-Pressed Groundnut Oil</a></li>
+            <li><a href="products.html?category=sesame#sesame-oil"><i class="bi bi-chevron-right"></i> Sesame (Gingelly) Oil</a></li>
+            <li><a href="products.html?category=coconut#coconut-oil"><i class="bi bi-chevron-right"></i> Virgin Coconut Oil</a></li>
+            <li><a href="products.html?category=mustard#mustard-oil"><i class="bi bi-chevron-right"></i> Kachi Ghani Mustard Oil</a></li>
+            <li><a href="products.html?category=sunflower#sunflower-oil"><i class="bi bi-chevron-right"></i> Cold-Pressed Sunflower Oil</a></li>
+            <li><a href="products.html?category=castor#castor-oil"><i class="bi bi-chevron-right"></i> Pure Castor Oil</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-widget-title">Contact &amp; Mill Visit</h5>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>48 Millers Road, Organic Heritage Hub, Erode - 638001, Tamil Nadu</div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <div><a href="tel:+919876543210">+91 98765 43210</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <div><a href="mailto:contact@vaagaichekku.com">contact@vaagaichekku.com</a></div>
+          </div>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Follow us on Facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Follow us on Instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Subscribe on YouTube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Chat with us on WhatsApp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center">
+        <div>
+          &copy; <span class="current-year">2026</span> <strong>Vaagai Chekku Oil Mill</strong>. All Rights Reserved.
+        </div>
+        <div class="d-flex gap-3">
+          <a href="login.html" class="text-muted">Staff Login</a>
+          <a href="404.html" class="text-muted">404 Page</a>
+          <a href="coming-soon.html" class="text-muted">Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/rtl.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+</html>
+

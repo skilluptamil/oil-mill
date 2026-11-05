@@ -1,0 +1,142 @@
+/* ===================================================================
+   VAAGAI CHEKKU - COLD-PRESSED OIL MILL
+   RTL (Right-to-Left) Stylesheet (css/rtl.css)
+   =================================================================== */
+
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] body {
+  text-align: right;
+}
+
+/* Nav & Header */
+[dir="rtl"] .navbar-nav {
+  padding-right: 0;
+}
+
+[dir="rtl"] .navbar .dropdown-menu {
+  text-align: right;
+  right: 0 !important;
+  left: auto !important;
+}
+
+[dir="rtl"] .dropdown-arrow {
+  margin-left: 0;
+  margin-right: 0.2rem;
+}
+
+[dir="rtl"] .navbar .dropdown-menu-end {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .navbar-actions {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  [dir="rtl"] .navbar-collapse {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
+}
+
+/* Hero Section */
+[dir="rtl"] .hero-home-1::before {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .hero-floating-seal {
+  left: auto;
+  right: -20px;
+}
+
+/* Icons & Buttons */
+[dir="rtl"] .btn-nav-enquire i,
+[dir="rtl"] .btn-primary-custom i,
+[dir="rtl"] .btn-secondary-custom i,
+[dir="rtl"] .btn-outline-custom i,
+[dir="rtl"] .btn-white-custom i {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .blog-read-more i,
+[dir="rtl"] .footer-links a i {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .footer-links a:hover {
+  transform: translateX(-4px);
+}
+
+/* Product Cards */
+[dir="rtl"] .product-badge-overlay {
+  left: auto;
+  right: 12px;
+}
+
+/* Process Steps */
+[dir="rtl"] .process-step-num {
+  left: auto;
+  right: 20px;
+}
+
+/* Blog */
+[dir="rtl"] .blog-date-badge {
+  right: auto;
+  left: 14px;
+}
+
+[dir="rtl"] .widget-title::after,
+[dir="rtl"] .footer-widget-title::after {
+  left: auto;
+  right: 0;
+}
+
+/* Forms */
+[dir="rtl"] .password-toggle-btn {
+  right: auto;
+  left: 12px;
+}
+
+[dir="rtl"] .form-check {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+[dir="rtl"] .form-check .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+  margin-left: 0;
+}
+
+/* Accordion */
+[dir="rtl"] .accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* Back to Top & Toast */
+[dir="rtl"] .back-to-top {
+  right: auto;
+  left: 24px;
+}
+
+[dir="rtl"] .custom-toast {
+  left: auto;
+  right: 24px;
+  border-left: none;
+  border-right: 4px solid var(--secondary);
+}
+
+/* Dashboard Sidebar RTL */
+[dir="rtl"] .dash-sidebar {
+  border-right: none;
+  border-left: 1px solid var(--border-color);
+}
+

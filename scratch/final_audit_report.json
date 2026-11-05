@@ -1,0 +1,598 @@
+{
+  "totalUniqueImages": 65,
+  "duplicatesCount": 0,
+  "occurrences": {
+    "photo-1474979266404-7eaacbcd87c5": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 159,
+        "alt": "Traditional Chekku Cold Pressed Oil Extraction Pouring Into Glass Jar",
+        "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1596489849178-c479124cfa02": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 183,
+        "alt": "Traditional Vaagai Wooden Chekku Pestle and Mortar Extraction Heritage",
+        "src": "https://images.unsplash.com/photo-1596489849178-c479124cfa02?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1546545584-c03ac781caaf": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 262,
+        "alt": "Native Groundnuts and Wood-Pressed Groundnut Oil",
+        "src": "https://images.unsplash.com/photo-1546545584-c03ac781caaf?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1705026042359-2d5b761845f3": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 291,
+        "alt": "Heirloom Black and White Sesame Seeds with Palm Jaggery",
+        "src": "https://images.unsplash.com/photo-1705026042359-2d5b761845f3?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1591282017732-207fbba7dfd4": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 319,
+        "alt": "Fresh Sun-Dried Coconut Copra and Virgin Cold Pressed Coconut Oil",
+        "src": "https://images.unsplash.com/photo-1591282017732-207fbba7dfd4?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1500382017468-9049fed747ef": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 347,
+        "alt": "Pure Mustard Seeds and Pungent Kachi Ghani Mustard Oil",
+        "src": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1544005313-94ddf0286df2": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 545,
+        "alt": "Sangeetha Natarajan - Home Chef & Organic Food Advocate",
+        "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1577219491135-ce391730fb2c": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 563,
+        "alt": "Chef Arvind Menon - Executive Chef, Heritage Flavors",
+        "src": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1559839734-2b71ea197ec2": [
+      {
+        "file": "index.html",
+        "type": "img",
+        "line": 581,
+        "alt": "Dr. Rajeshwari K. - Ayurvedic Physician & Nutritionist",
+        "src": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1622542086073-dcdc3350cc2b": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 134,
+        "alt": "Wood-Pressed Groundnut Oil Kernels",
+        "src": "https://images.unsplash.com/photo-1622542086073-dcdc3350cc2b?auto=format&fit=crop&w=200&q=80"
+      }
+    ],
+    "photo-1514733670139-4d87a1941d55": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 139,
+        "alt": "Pure Gingelly Sesame Seeds",
+        "src": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=200&q=80"
+      }
+    ],
+    "photo-1446889727648-8c23e3039b24": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 144,
+        "alt": "Pollachi Sun-Dried Coconut Copra",
+        "src": "https://images.unsplash.com/photo-1446889727648-8c23e3039b24?auto=format&fit=crop&w=200&q=80"
+      }
+    ],
+    "photo-1509358271058-acd22cc93898": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 149,
+        "alt": "Heirloom Yellow Mustard Seeds in Spoon",
+        "src": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=200&q=80"
+      }
+    ],
+    "photo-1570283988059-af8412f4fe91": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 208,
+        "alt": "Artisan Crafting Vaagai Hardwood Pestle for Chekku Mill",
+        "src": "https://images.unsplash.com/photo-1570283988059-af8412f4fe91?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1555939594-58d7cb561ad1": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 243,
+        "alt": "Healthy Culinary Cooking with Pure Cold-Pressed Kitchen Oils",
+        "src": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1540555700478-4be289fbecef": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 262,
+        "alt": "Ayurvedic Wellness and Therapeutic Body Massage Oils",
+        "src": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1526947425960-945c6e72858f": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 281,
+        "alt": "Single-Estate Virgin Cold-Pressed Specialty Oils in Glass",
+        "src": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1581092160607-ee22621dd758": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 471,
+        "alt": "Master Miller Inspection and Temperature Batch Audit",
+        "src": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80"
+      }
+    ],
+    "photo-1586528116311-ad8dd3c8310d": [
+      {
+        "file": "home-2.html",
+        "type": "img",
+        "line": 474,
+        "alt": "Hygienic Clean Room Bottling and Safe Packaging",
+        "src": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=400&q=80"
+      }
+    ],
+    "photo-1529877612930-6e7df7e2b02f": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 140,
+        "alt": "Heritage Chekku Mill Floor and Timber Ageing Facility",
+        "src": "https://images.unsplash.com/photo-1529877612930-6e7df7e2b02f?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1507003211169-0a1dd7228f2d": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 313,
+        "alt": "K. Periasamy - Founder & Master Miller",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "photo-1573496359142-b8d87734a5a2": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 322,
+        "alt": "Dr. Meenakshi Sundaram - Head of Seed Agronomy",
+        "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "photo-1500648767791-00dcc994a43e": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 331,
+        "alt": "R. Chandran - Master Chekku Craftsman & Mill Operations",
+        "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "photo-1534528741775-53994a69daeb": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 340,
+        "alt": "Ananya Periasamy - Supply Chain & Sustainable Packaging",
+        "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "photo-1567532939604-b6b5b0db2604": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 375,
+        "alt": "Lakshmi Ramanathan - Customer since 2012",
+        "src": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1522075469751-3a6694fb2f61": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 393,
+        "alt": "Vigneshwaran K. - Organic Seed Farmer Partner",
+        "src": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1506794778202-cad84cf45f1d": [
+      {
+        "file": "about.html",
+        "type": "img",
+        "line": 411,
+        "alt": "Gopalakrishnan S. - Director, Sanjeevani Ayurvedic Clinic",
+        "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1532634733-cae1395e440f": [
+      {
+        "file": "services.html",
+        "type": "img",
+        "line": 128,
+        "alt": "Commercial Cold-Pressed Chekku Oil Extraction Plant",
+        "src": "https://images.unsplash.com/photo-1532634733-cae1395e440f?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1596040033229-a9821ebd058d": [
+      {
+        "file": "services.html",
+        "type": "img",
+        "line": 171,
+        "alt": "Wooden Chekku Custom Seed Milling and Toll Crushing",
+        "src": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1757801333112-7b89af15c7fe": [
+      {
+        "file": "services.html",
+        "type": "img",
+        "line": 201,
+        "alt": "Hygienic Glass Bottling and Private Label Packaging",
+        "src": "https://images.unsplash.com/photo-1757801333112-7b89af15c7fe?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1651171052773-1f46b5894d6a": [
+      {
+        "file": "service-details.html",
+        "type": "img",
+        "line": 136,
+        "alt": "Chekku Contract Milling Facility Seed Storage and Production",
+        "src": "https://images.unsplash.com/photo-1651171052773-1f46b5894d6a?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1549978113-29eb25c8177f": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 130,
+        "alt": "Wood-Pressed Groundnut Oil from Native Peanuts",
+        "src": "https://images.unsplash.com/photo-1549978113-29eb25c8177f?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1778048840964-d221d23b86ee": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 162,
+        "alt": "Cold-Pressed Sesame (Gingelly) Oil Crushed with Palm Jaggery",
+        "src": "https://images.unsplash.com/photo-1778048840964-d221d23b86ee?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1588413335367-e49d32c5b50b": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 194,
+        "alt": "Raw Cold-Pressed Virgin Coconut Oil from Pollachi Copra",
+        "src": "https://images.unsplash.com/photo-1588413335367-e49d32c5b50b?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1701188543419-f2e932565056": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 225,
+        "alt": "Kachi Ghani Cold-Pressed Mustard Oil from Organic Mustard",
+        "src": "https://images.unsplash.com/photo-1701188543419-f2e932565056?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1597848212624-a19eb35e2651": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 256,
+        "alt": "Cold-Pressed Sunflower Oil from Fresh Sunflower Seeds",
+        "src": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1608571423902-eed4a5ad8108": [
+      {
+        "file": "products.html",
+        "type": "img",
+        "line": 286,
+        "alt": "Pure Cold-Pressed Castor Oil in Amber Glass",
+        "src": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1574943320219-553eb213f72d": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 124,
+        "alt": "Inspection and Selection of Heirloom Native Seeds",
+        "src": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1533634923031-5ddbd8505b92": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 158,
+        "alt": "Traditional Sun Drying and Dust Sieving of Seeds",
+        "src": "https://images.unsplash.com/photo-1533634923031-5ddbd8505b92?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1746293769979-5c8cd4fdefc8": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 197,
+        "alt": "Traditional Vaagai Hardwood Chekku Pestle Crushing under 42°C",
+        "src": "https://images.unsplash.com/photo-1746293769979-5c8cd4fdefc8?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1768689033119-c3ac1e437d20": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 222,
+        "alt": "Natural Sun Sedimentation and Gentle Gravity Settling",
+        "src": "https://images.unsplash.com/photo-1768689033119-c3ac1e437d20?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1579154204601-01588f351e67": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 252,
+        "alt": "Multi-Layer Cotton Cloth Filtration and Quality Lab Testing",
+        "src": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1793100123550-1f5d5138df9a": [
+      {
+        "file": "process.html",
+        "type": "img",
+        "line": 287,
+        "alt": "UV-Protected Dark Glass Bottling and Hermetic Sealing",
+        "src": "https://images.unsplash.com/photo-1793100123550-1f5d5138df9a?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "photo-1513836279014-a89f7a76ae86": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 110,
+        "alt": "Vaagai Hardwood Timber Structure and Growth Rings",
+        "src": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1000&q=80"
+      }
+    ],
+    "photo-1537368910025-700350fe46c7": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 125,
+        "alt": "K. Periasamy",
+        "src": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=80&q=80"
+      }
+    ],
+    "photo-1753357278471-f56646db80e2": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 163,
+        "alt": "Chemical Solvents vs Traditional Mechanical Cold-Pressing",
+        "src": "https://images.unsplash.com/photo-1753357278471-f56646db80e2?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1790858985850-b4153cf6664a": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 186,
+        "alt": "Organic Palm Jaggery (Karupatti) Used in Sesame Extraction",
+        "src": "https://images.unsplash.com/photo-1790858985850-b4153cf6664a?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1556910103-1c02745aae4d": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 209,
+        "alt": "Deep Frying at High Heat in Cold-Pressed Groundnut Oil",
+        "src": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1483921020237-2ff51e8e4b22": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 232,
+        "alt": "Cold Solidification Refrigerator Test for Coconut Oil Purity",
+        "src": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1546484396-fb3fc6f95f98": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 271,
+        "alt": "Why Vaagai Wood is Best for Traditional Chekku",
+        "src": "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=100&q=80"
+      }
+    ],
+    "photo-1784913108828-a7a36b9962e2": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 279,
+        "alt": "Chemical Solvents and Hexane in Refined Oil",
+        "src": "https://images.unsplash.com/photo-1784913108828-a7a36b9962e2?auto=format&fit=crop&w=100&q=80"
+      }
+    ],
+    "photo-1654373535457-383a0a4d00f9": [
+      {
+        "file": "blog.html",
+        "type": "img",
+        "line": 287,
+        "alt": "Traditional Gingelly Oil Pulling for Oral Health",
+        "src": "https://images.unsplash.com/photo-1654373535457-383a0a4d00f9?auto=format&fit=crop&w=100&q=80"
+      }
+    ],
+    "photo-1501196354995-cbb51c65aaea": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 114,
+        "alt": "K. Periasamy",
+        "src": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=100&q=80"
+      }
+    ],
+    "photo-1518531933037-91b2f5f229cc": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 128,
+        "alt": "Albizia Lebbeck (Vaagai) Sacred Timber Pestle in Granite Mortar",
+        "src": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1200&q=80"
+      }
+    ],
+    "photo-1519710164239-da123dc03ef4": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 156,
+        "alt": "Natural Wood Grain Thermodynamics Absorbing Crushing Friction",
+        "src": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1552592074-ea7a91b851b3": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 160,
+        "alt": "Golden Cold-Pressed Oil Streaming from Wood Chekku",
+        "src": "https://images.unsplash.com/photo-1552592074-ea7a91b851b3?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1650192388648-65800ec59fee": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 209,
+        "alt": "Traditional Sesame Seeds and Palm Jaggery Synergy",
+        "src": "https://images.unsplash.com/photo-1650192388648-65800ec59fee?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1589302168068-964664d93dc0": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 222,
+        "alt": "Traditional Deep Frying in Pure Wood-Pressed Groundnut Oil",
+        "src": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "photo-1519085360753-af0119f7cbe7": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 243,
+        "alt": "K. Periasamy - Master Miller & Traditional Oil Advocate",
+        "src": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80"
+      }
+    ],
+    "photo-1518152006812-edab29b069ac": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 278,
+        "alt": "Chemical Solvents vs Natural Mechanical Chekku Pressing",
+        "src": "https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=90&q=80"
+      }
+    ],
+    "photo-1506126613408-eca07ce68773": [
+      {
+        "file": "blog-details.html",
+        "type": "img",
+        "line": 286,
+        "alt": "Daily Morning Oil Pulling Rituals with Pure Sesame Oil",
+        "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=90&q=80"
+      }
+    ],
+    "photo-1472099645785-5658abf4ff4e": [
+      {
+        "file": "dashboard.html",
+        "type": "img",
+        "line": 83,
+        "alt": "Admin Profile Avatar",
+        "src": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&q=80"
+      }
+    ],
+    "photo-1500937386664-56d1dfef3854": [
+      {
+        "file": "css/style.css",
+        "type": "css",
+        "line": 619,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1920&q=80"
+      },
+      {
+        "file": "css/dark-mode.css",
+        "type": "css",
+        "line": 91,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1920&q=80"
+      }
+    ],
+    "photo-1470240731273-7821a6eeb6bd": [
+      {
+        "file": "css/style.css",
+        "type": "css",
+        "line": 742,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=1920&q=80"
+      }
+    ],
+    "photo-1518568814500-bf0f8d125f46": [
+      {
+        "file": "css/style.css",
+        "type": "css",
+        "line": 832,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?auto=format&fit=crop&w=1920&q=80"
+      }
+    ]
+  }
+}
