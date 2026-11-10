@@ -79,6 +79,12 @@ document.addEventListener('DOMContentLoaded', function () {
     heroImgEl.alt = post.imageAlt;
   }
 
+  // Also synchronize the page banner background image with the selected article
+  const pageBannerEl = document.querySelector('.page-banner.banner-blog-details');
+  if (pageBannerEl && post.image) {
+    pageBannerEl.style.backgroundImage = `linear-gradient(135deg, rgba(18, 34, 10, 0.84) 0%, rgba(30, 52, 18, 0.74) 100%), url('${post.image}')`;
+  }
+
   // 7. Inject Article Body Content
   const contentEl = document.getElementById('blogPostContent');
   if (contentEl) {

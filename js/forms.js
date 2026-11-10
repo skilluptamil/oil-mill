@@ -150,9 +150,9 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      showToast('Login successful! Redirecting to dashboard demo...', 'success');
+      showToast('Login successful! Redirecting to home page...', 'success');
       setTimeout(() => {
-        window.location.href = 'dashboard.html';
+        window.location.href = 'index.html';
       }, 1000);
     });
   }

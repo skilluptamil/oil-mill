@@ -420,6 +420,62 @@ window.BLOG_DATA = [
         <small class="fw-bold text-muted">— Dr. Rajeshwari K., Ayurvedic Physician</small>
       </div>
     `
+  },
+  {
+    id: 'kachi-ghani-mustard-culinary',
+    title: 'Kachi Ghani Mustard Oil: The Authentic Secret to Tangy Pickles & Sizzling Temperings',
+    category: 'Culinary Tips',
+    categorySlug: 'culinary',
+    categoryIcon: 'bi-fire',
+    date: 'Jul 24, 2026',
+    day: '24',
+    month: 'JUL',
+    readTime: '5 min read',
+    views: '10,640 views',
+    commentsCount: 16,
+    image: 'https://images.unsplash.com/photo-1701188543419-f2e932565056?auto=format&fit=crop&w=1200&q=80',
+    imageAlt: 'Pure Native Black Mustard Seeds and Pungent Kachi Ghani Mustard Oil',
+    author: {
+      name: 'Chef Arvind Menon',
+      role: 'Executive Chef & Food Historian',
+      avatar: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=300&q=80',
+      bio: 'Culinary consultant and traditional Indian chef advocating for native ingredients, unrefined fats, and forgotten kitchen techniques.'
+    },
+    excerpt: 'Why traditional Indian kitchens and ancestral pickle makers swear by slow wood-pressed Kachi Ghani black mustard oil.',
+    contentHtml: `
+      <p class="lead text-dark">
+        In traditional Indian pantries, few aromas stir culinary memory quite like the crisp, nose-clearing tang of <strong>Kachi Ghani (cold-pressed) Black Mustard Oil</strong> hitting a hot seasoning pan. Yet commercial solvent refining strips away allyl isothiocyanate—the natural pungent compound responsible for both its signature zest and natural antimicrobial preservation.
+      </p>
+
+      <h4 class="fw-bold mt-4 mb-3">1. Why Kachi Ghani Means Live Enzymatic Pungency</h4>
+      <p class="text-muted">
+        In the slow wooden Chekku, whole black mustard seeds (Brassica nigra) are gently crushed under 38°C alongside a controlled trace of pure water. This gentle mechanical shear lets the natural enzyme <em>myrosinase</em> unlock allyl isothiocyanate—giving genuine cold-pressed mustard oil its unmistakable warmth and golden-amber sparkle.
+      </p>
+
+      <div class="row g-3 my-4">
+        <div class="col-sm-6">
+          <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80" alt="Whole Native Spices and Traditional Pickle Masala" class="rounded-3 w-100" style="height: 220px; object-fit: cover;">
+          <small class="text-muted d-block text-center mt-1">Whole spices infused with wood-pressed mustard oil</small>
+        </div>
+        <div class="col-sm-6">
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80" alt="Sizzling Indian Tadka Tempering in Mustard Oil" class="rounded-3 w-100" style="height: 220px; object-fit: cover;">
+          <small class="text-muted d-block text-center mt-1">Smoking-point readiness for crisp aromatic tempering</small>
+        </div>
+      </div>
+
+      <h4 class="fw-bold mt-4 mb-3">2. Nature's Pure Preservative for Sun-Aged Pickles</h4>
+      <ul class="text-muted">
+        <li><strong>Antifungal Barrier:</strong> Kachi Ghani mustard oil naturally inhibits yeast and mold growth in seasonal mango, lime, and garlic achars without chemical preservatives.</li>
+        <li><strong>Omega-3 & Monounsaturated Ratio:</strong> Rich in heart-friendly alpha-linolenic acid (ALA) and stable monounsaturated fats (250°C smoke point).</li>
+      </ul>
+
+      <div class="p-4 bg-cream rounded-3 border-start border-4 border-warning my-4">
+        <p class="fst-italic text-dark mb-1">
+          "Never trust a jar of mustard oil that smells odorless. The natural pungent warmth is proof that it was pressed cold without chemical deodorization."
+        </p>
+        <small class="fw-bold text-muted">— Chef Arvind Menon, Executive Chef &amp; Food Historian</small>
+      </div>
+    `
   }
 ];
 

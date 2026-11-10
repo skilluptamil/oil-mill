@@ -63,7 +63,6 @@
 
           <div class="navbar-actions">
             <button type="button" class="rtl-toggle-btn" aria-label="Toggle LTR / RTL Direction" title="Toggle Layout Direction">
-              <i class="bi bi-arrow-left-right"></i>
               <span class="rtl-text">RTL</span>
             </button>
             <button type="button" class="theme-toggle-btn" aria-label="Toggle Dark / Light Mode" title="Toggle Theme">
@@ -82,7 +81,7 @@
   <!-- ===================================================================
        SECTION 1: BLOG HERO SECTION
        =================================================================== -->
-  <section class="page-banner">
+  <section class="page-banner banner-blog">
     <div class="container">
       <div class="section-tag" style="background: rgba(255,255,255,0.15); color: #F5B025; border-color: rgba(245,176,37,0.4);">
         <i class="bi bi-journal-text"></i> Evidence-Based Articles
@@ -148,7 +147,7 @@
               <a href="#" class="filter-btn blog-cat-link" data-category="culinary">Culinary Tips</a>
             </div>
 
-            <div style="min-width: 220px;">
+            <div class="flex-grow-1 flex-sm-grow-0" style="min-width: min(100%, 220px);">
               <input type="text" class="form-control form-control-sm" id="blogSearchInput" placeholder="Search blog articles...">
             </div>
           </div>
@@ -283,27 +282,27 @@
               </div>
             </div>
 
-            <!-- Post 6: Vaagai Wood Science -->
-            <div class="col-md-6 blog-list-item" data-category="science">
+            <!-- Post 6: Kachi Ghani Mustard Culinary -->
+            <div class="col-md-6 blog-list-item" data-category="culinary">
               <div class="blog-card h-100">
                 <div class="blog-thumb-wrap">
-                  <a href="blog-details.html?id=vaagai-wood-chekku" class="d-block w-100 h-100" title="Why Vaagai Wood (Albizia Lebbeck) is the Best for Cold-Pressed Chekku Oils">
-                    <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80" alt="Vaagai Hardwood Timber Structure and Growth Rings for Chekku Pestles">
+                  <a href="blog-details.html?id=kachi-ghani-mustard-culinary" class="d-block w-100 h-100" title="Kachi Ghani Mustard Oil: The Authentic Secret to Tangy Pickles & Sizzling Temperings">
+                    <img src="https://images.unsplash.com/photo-1701188543419-f2e932565056?auto=format&fit=crop&w=600&q=80" alt="Pure Native Black Mustard Seeds and Pungent Kachi Ghani Mustard Oil">
                   </a>
-                  <span class="blog-date-badge">14<br><small>OCT</small></span>
+                  <span class="blog-date-badge">24<br><small>JUL</small></span>
                 </div>
                 <div class="blog-body d-flex flex-column">
                   <div class="blog-meta mb-2">
-                    <span><i class="bi bi-tag-fill"></i> Science</span>
-                    <span><i class="bi bi-chat"></i> 18 Comments</span>
+                    <span><i class="bi bi-tag-fill"></i> Culinary</span>
+                    <span><i class="bi bi-chat"></i> 16 Comments</span>
                   </div>
                   <h4 class="blog-title">
-                    <a href="blog-details.html?id=vaagai-wood-chekku">Why Vaagai Wood (Albizia Lebbeck) is the Best for Cold-Pressed Chekku Oils</a>
+                    <a href="blog-details.html?id=kachi-ghani-mustard-culinary">Kachi Ghani Mustard Oil: The Authentic Secret to Tangy Pickles &amp; Sizzling Temperings</a>
                   </h4>
                   <p class="blog-excerpt flex-grow-1">
-                    Explore the thermal physics, natural cooling properties, and medicinal heritage behind South India’s sacred Vaagai wood pestles.
+                    Why traditional Indian kitchens and ancestral pickle makers swear by slow wood-pressed Kachi Ghani black mustard oil.
                   </p>
-                  <a href="blog-details.html?id=vaagai-wood-chekku" class="blog-read-more mt-auto">Read Full Article <i class="bi bi-arrow-right"></i></a>
+                  <a href="blog-details.html?id=kachi-ghani-mustard-culinary" class="blog-read-more mt-auto">Read Full Article <i class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -390,7 +389,9 @@
     <div class="container">
       <div class="row g-4">
         <div class="col-lg-4 col-md-6 footer-brand">
-          <img src="assets/logos/logo.svg" alt="Vaagai Chekku Logo" class="brand-logo-img" height="50">
+          <a href="index.html" class="d-inline-block footer-logo-link" aria-label="Vaagai Chekku Home">
+            <img src="assets/logos/logo.svg" alt="Vaagai Chekku Logo" class="brand-logo-img" height="50">
+          </a>
           <p>
             Preserving traditional wooden Chekku oil extraction heritage. Our cold-pressed oils are 100% natural, unrefined, and chemical-free, keeping the vitality of organic seeds intact.
           </p>
@@ -451,7 +452,7 @@
         <div>
           &copy; <span class="current-year">2026</span> <strong>Vaagai Chekku Oil Mill</strong>. All Rights Reserved.
         </div>
-        <div class="d-flex gap-3">
+        <div class="d-flex flex-wrap gap-3">
           <a href="login.html" class="text-muted">Staff Login</a>
           <a href="404.html" class="text-muted">404 Page</a>
           <a href="coming-soon.html" class="text-muted">Coming Soon</a>

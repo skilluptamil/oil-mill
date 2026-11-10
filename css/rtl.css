@@ -80,6 +80,10 @@
   right: 12px;
 }
 
+[dir="rtl"] .pricing-features-list {
+  text-align: right;
+}
+
 /* Process Steps */
 [dir="rtl"] .process-step-num {
   left: auto;
@@ -132,11 +136,5 @@
   right: 24px;
   border-left: none;
   border-right: 4px solid var(--secondary);
-}
-
-/* Dashboard Sidebar RTL */
-[dir="rtl"] .dash-sidebar {
-  border-right: none;
-  border-left: 1px solid var(--border-color);
 }
 

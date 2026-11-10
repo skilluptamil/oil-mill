@@ -4,13 +4,23 @@
    Targeting: 320px, 360px, 375px, 414px, 480px, 768px, 1024px, 1280px, 1440px, 1920px
    =================================================================== */
 
-/* Container consistency */
+/* Container & Overflow safety across all breakpoints */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   padding-right: 1.25rem;
   padding-left: 1.25rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+/* Prevent Bootstrap .row.g-5 (-1.5rem margin) from bleeding outside .container padding */
+.row.g-5 {
+  --bs-gutter-x: 2.25rem;
 }
 
 /* --- 1920px (Full HD & Ultrawide) --- */
@@ -63,8 +73,13 @@
     font-size: 0.84rem !important;
   }
   .rtl-toggle-btn {
-    padding: 0 0.65rem !important;
-    font-size: 0.72rem !important;
+    padding: 0 0.7rem !important;
+    min-width: 46px;
+    font-size: 0.74rem !important;
+  }
+
+  .pricing-price {
+    font-size: 1.95rem;
   }
 
   .product-body {
@@ -81,6 +96,10 @@
 
 /* --- 1024px to 992px (Small Laptop / Tablet Landscape) --- */
 @media (max-width: 991.98px) {
+  .row.g-5 {
+    --bs-gutter-x: 1.75rem;
+  }
+
   .section-padding {
     padding: 70px 0;
   }
@@ -209,28 +228,48 @@
     transform: none !important;
   }
 
-  .comparison-table-wrapper {
+  .comparison-table-wrapper,
+  .wholesale-table-card {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
   .comparison-table {
-    min-width: 600px;
+    min-width: 560px;
+  }
+
+  .site-footer {
+    padding: 60px 0 25px;
   }
 }
 
-/* --- 480px (Mobile Landscape & Large Mobile) --- */
+/* --- 480px & 576px (Mobile Landscape & Small Tablet) --- */
 @media (max-width: 575.98px) {
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .row,
+  .row.g-4,
+  .row.g-5 {
+    --bs-gutter-x: 1.5rem;
+  }
+
   .section-padding {
-    padding: 55px 0;
+    padding: 50px 0;
+  }
+
+  .section-padding-sm {
+    padding: 38px 0;
   }
 
   .hero-title-main {
-    font-size: 2.1rem;
+    font-size: 2.05rem;
   }
 
   .hero-home-2 h1 {
-    font-size: 2.1rem;
+    font-size: 2.05rem;
   }
 
   .hero-lead-text {
@@ -257,26 +296,44 @@
   }
 
   .page-banner {
-    padding: 60px 0 50px;
+    padding: 55px 0 48px;
   }
 
   .page-banner h1 {
-    font-size: 2rem;
+    font-size: 1.95rem;
+    overflow-wrap: break-word;
+  }
+
+  .breadcrumb-custom {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
-/* --- 414px, 375px, 360px (Standard Mobile) --- */
+/* --- 414px, 375px, 360px (Standard & Small Mobile) --- */
 @media (max-width: 414px) {
   .hero-title-main {
-    font-size: 1.95rem;
+    font-size: 1.85rem;
   }
 
   .hero-home-2 h1 {
-    font-size: 1.95rem;
+    font-size: 1.85rem;
   }
 
   .section-title {
+    font-size: 1.65rem;
+  }
+
+  .page-banner h1 {
     font-size: 1.75rem;
+  }
+
+  .section-tag {
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.8rem;
   }
 
   .btn-primary-custom,
@@ -285,6 +342,17 @@
   .btn-white-custom {
     width: 100%;
     padding: 0.65rem 1.25rem;
+  }
+
+  .input-group .btn-primary-custom,
+  .input-group .btn-secondary-custom {
+    width: auto !important;
+    padding: 0.65rem 1rem;
+  }
+
+  .pricing-price {
+    font-size: 1.9rem;
+    flex-wrap: wrap;
   }
 
   .product-footer {
@@ -297,34 +365,48 @@
     width: 100%;
     justify-content: center;
   }
+
+  .navbar-brand img {
+    height: 42px;
+  }
 }
 
-/* --- 320px (Small Mobile - iPhone SE / Galaxy Fold) --- */
-@media (max-width: 320px) {
-  .hero-title-main {
-    font-size: 1.75rem;
+/* --- 360px (Small Mobile) --- */
+@media (max-width: 360px) {
+  .container {
+    padding-right: 0.85rem;
+    padding-left: 0.85rem;
   }
 
+  .row,
+  .row.g-3,
+  .row.g-4,
+  .row.g-5 {
+    --bs-gutter-x: 1.25rem;
+  }
+
+  .hero-title-main,
   .hero-home-2 h1 {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
+  }
+
+  .page-banner h1 {
+    font-size: 1.6rem;
   }
 
   .section-title {
-    font-size: 1.55rem;
+    font-size: 1.52rem;
   }
 
-  .navbar-brand img {
-    height: 40px;
-  }
-
-  .section-tag {
-    font-size: 0.72rem;
-    padding: 0.25rem 0.75rem;
+  .pricing-card,
+  .retail-pricing-card,
+  .pack-variant-card {
+    padding: 1.5rem 1.15rem;
   }
 
   .filter-btn {
     font-size: 0.8rem;
-    padding: 0.35rem 0.85rem;
+    padding: 0.38rem 0.85rem;
   }
 }
 
