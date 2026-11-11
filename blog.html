@@ -368,9 +368,9 @@
                 Receive monthly articles on nutritional lipid science, recipe guides, and exclusive harvest discount codes.
               </p>
             </div>
-            <form id="blogNewsletterForm">
+            <form id="blogNewsletterForm" novalidate>
               <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                <input type="email" class="form-control" id="blogNewsletterEmail" placeholder="Enter your email address *" aria-label="Email Address" required>
               </div>
               <button type="submit" class="btn btn-primary-custom w-100">Subscribe Free</button>
               <small class="text-muted d-block text-center mt-2" style="font-size: 0.75rem;">
@@ -453,7 +453,6 @@
           &copy; <span class="current-year">2026</span> <strong>Vaagai Chekku Oil Mill</strong>. All Rights Reserved.
         </div>
         <div class="d-flex flex-wrap gap-3">
-          <a href="login.html" class="text-muted">Staff Login</a>
           <a href="404.html" class="text-muted">404 Page</a>
           <a href="coming-soon.html" class="text-muted">Coming Soon</a>
         </div>

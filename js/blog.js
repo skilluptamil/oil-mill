@@ -67,18 +67,5 @@ document.addEventListener('DOMContentLoaded', function () {
       filterBlogPosts();
     }
   }
-
-  // Newsletter form submission handling
-  const newsletterForm = document.getElementById('blogNewsletterForm');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const email = this.querySelector('input[type="email"]');
-      if (email && email.value) {
-        showToast(`Subscribed successfully! Updates will be sent to ${email.value}`, 'success');
-        this.reset();
-      }
-    });
-  }
 });
 

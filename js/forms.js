@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
   // --- Show / Hide Password Toggle ---
-  const togglePassBtns = document.querySelectorAll('.password-toggle-btn');
-  togglePassBtns.forEach(btn => {
+  document.querySelectorAll('.password-toggle-btn').forEach(btn => {
     btn.addEventListener('click', function () {
       const input = this.parentElement.querySelector('input');
       const icon = this.querySelector('i');
@@ -24,181 +23,368 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // --- Helper: Validate Email ---
+  // --- Pre-fill Quick Enquiry Modal across index.html, home-2.html, products.html ---
+  const enquiryBtns = document.querySelectorAll('.btn-enquire-product');
+  const modalOilTypeInput = document.getElementById('enquiryModalOilType');
+  enquiryBtns.forEach(btn => {
+    btn.addEventListener('click', function () {
+      const productName = this.getAttribute('data-product-name');
+      if (modalOilTypeInput && productName) {
+        modalOilTypeInput.value = productName;
+      }
+      const modalForm = document.getElementById('modalQuickEnquiryForm');
+      if (modalForm) {
+        resetValidationState(modalForm);
+      }
+    });
+  });
+
+  // --- Validation Helpers ---
   function isValidEmail(email) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,}$/.test(email);
   }
 
-  // --- Helper: Validate Phone ---
   function isValidPhone(phone) {
-    return /^[0-9+() -]{7,16}$/.test(phone);
+    if (!/^\+?[\d\s()-]+$/.test(phone)) return false;
+    const digits = phone.replace(/\D/g, '');
+    if (digits.length < 10 || digits.length > 15) return false;
+    if (/^(\d)\1+$/.test(digits)) return false;
+    return true;
   }
 
-  // --- General Contact Form Validation ---
+  function getFieldLabelText(form, field) {
+    if (field.id) {
+      const label = form.querySelector(`label[for="${field.id}"]`);
+      if (label) {
+        return label.textContent.replace(/\*/g, '').replace(/\(Optional\)/gi, '').trim();
+      }
+    }
+    return field.getAttribute('aria-label') || field.getAttribute('placeholder') || 'this field';
+  }
+
+  function validateFieldValue(form, field) {
+    if (field.disabled || field.readOnly || !field.hasAttribute('required')) {
+      return '';
+    }
+
+    const val = (field.value || '').trim();
+    const labelText = getFieldLabelText(form, field);
+
+    if (field.type === 'checkbox') {
+      if (!field.checked) {
+        if (field.id === 'regAgreeTerms') {
+          return 'Please agree to the Terms of Service & Privacy Policy.';
+        }
+        return `Please check ${labelText}.`;
+      }
+      return '';
+    }
+
+    if (field.tagName === 'SELECT') {
+      if (!val) {
+        return `Please select a ${labelText.toLowerCase()}.`;
+      }
+      return '';
+    }
+
+    if (!val) {
+      const cleanLabel = labelText.toLowerCase().replace(/^your\s+/, '');
+      if (cleanLabel === 'quantity required') {
+        return 'Please enter the required quantity.';
+      }
+      if (cleanLabel.startsWith('enter your ')) {
+        return `Please ${cleanLabel}.`;
+      }
+      return `Please enter your ${cleanLabel}.`;
+    }
+
+    if (field.type === 'email') {
+      if (!isValidEmail(val)) {
+        return 'Please enter a valid email address (e.g. name@example.com).';
+      }
+      return '';
+    }
+
+    if (field.type === 'tel') {
+      if (!isValidPhone(val)) {
+        return 'Please enter a valid 10 to 15-digit phone number (e.g. +91 98765 43210).';
+      }
+      return '';
+    }
+
+    if (field.type === 'password' || (field.id && field.id.toLowerCase().includes('password'))) {
+      if (val.length < 6) {
+        return 'Password must be at least 6 characters long.';
+      }
+      if (field.id === 'regConfirmPassword') {
+        const regPass = form.querySelector('#regPassword')?.value || '';
+        if (val !== regPass) {
+          return 'Passwords do not match. Please re-check.';
+        }
+      }
+      return '';
+    }
+
+    if (field.id === 'contactMessage') {
+      if (val.length < 5) {
+        return 'Please provide a message of at least 5 characters.';
+      }
+      return '';
+    }
+
+    if (field.id === 'bulkQuantity') {
+      if (!/[a-zA-Z0-9]/.test(val)) {
+        return 'Please enter a valid quantity (e.g. 50 Litres).';
+      }
+      return '';
+    }
+
+    if (['bulkName', 'contactName', 'modalEnquiryName', 'regFullName'].includes(field.id)) {
+      if (val.length < 2) {
+        return 'Name must be at least 2 characters long.';
+      }
+    }
+
+    return '';
+  }
+
+  function getErrorAnchor(field) {
+    return field.closest('.input-group') || field.closest('.form-check') || field;
+  }
+
+  function showFieldError(field, message) {
+    field.classList.add('is-invalid');
+    field.classList.remove('is-valid');
+    field.setAttribute('aria-invalid', 'true');
+
+    const anchor = getErrorAnchor(field);
+    let errEl = anchor.nextElementSibling;
+    if (!errEl || !errEl.classList.contains('field-error-msg')) {
+      errEl = document.createElement('div');
+      errEl.className = 'field-error-msg';
+      errEl.setAttribute('role', 'alert');
+      anchor.insertAdjacentElement('afterend', errEl);
+    }
+    errEl.innerHTML = `<i class="bi bi-exclamation-circle-fill"></i><span>${message}</span>`;
+  }
+
+  function clearFieldError(field, markValid = false) {
+    field.classList.remove('is-invalid');
+    field.removeAttribute('aria-invalid');
+    const val = (field.value || '').trim();
+    if (markValid && ((field.type === 'checkbox' && field.checked) || (field.type !== 'checkbox' && val !== ''))) {
+      field.classList.add('is-valid');
+    } else {
+      field.classList.remove('is-valid');
+    }
+
+    const anchor = getErrorAnchor(field);
+    const errEl = anchor.nextElementSibling;
+    if (errEl && errEl.classList.contains('field-error-msg')) {
+      errEl.remove();
+    }
+  }
+
+  function getFormFields(form) {
+    return Array.from(form.querySelectorAll('input, select, textarea')).filter(el => {
+      const tagType = (el.type || '').toLowerCase();
+      return tagType !== 'submit' && tagType !== 'button' && tagType !== 'hidden' && !el.disabled && !el.readOnly;
+    });
+  }
+
+  function isFormValid(form) {
+    const fields = getFormFields(form);
+    return fields.every(field => validateFieldValue(form, field) === '');
+  }
+
+  function syncSubmitButton(form) {
+    const submitBtn = form.querySelector('button[type="submit"], input[type="submit"]');
+    if (!submitBtn) return;
+
+    if (isFormValid(form)) {
+      submitBtn.classList.remove('btn-submit-disabled');
+      submitBtn.setAttribute('aria-disabled', 'false');
+    } else {
+      submitBtn.classList.add('btn-submit-disabled');
+      submitBtn.setAttribute('aria-disabled', 'true');
+    }
+  }
+
+  function resetValidationState(form) {
+    getFormFields(form).forEach(field => {
+      clearFieldError(field, false);
+      delete field.dataset.touched;
+    });
+    syncSubmitButton(form);
+  }
+
+  function validateFormAndDisplayErrors(form) {
+    const fields = getFormFields(form);
+    let firstInvalidField = null;
+    let allValid = true;
+
+    fields.forEach(field => {
+      field.dataset.touched = 'true';
+      const err = validateFieldValue(form, field);
+      if (err) {
+        allValid = false;
+        showFieldError(field, err);
+        if (!firstInvalidField) firstInvalidField = field;
+      } else {
+        clearFieldError(field, field.hasAttribute('required'));
+      }
+    });
+
+    syncSubmitButton(form);
+
+    if (firstInvalidField) {
+      firstInvalidField.focus({ preventScroll: false });
+    }
+    return allValid;
+  }
+
+  function attachLiveValidation(form, onValidSubmit) {
+    if (!form) return;
+    form.setAttribute('novalidate', 'novalidate');
+
+    const fields = getFormFields(form);
+    fields.forEach(field => {
+      const eventName = (field.tagName === 'SELECT' || field.type === 'checkbox') ? 'change' : 'input';
+
+      field.addEventListener('blur', function () {
+        field.dataset.touched = 'true';
+        const err = validateFieldValue(form, field);
+        if (err) {
+          showFieldError(field, err);
+        } else {
+          clearFieldError(field, field.hasAttribute('required'));
+        }
+        syncSubmitButton(form);
+      });
+
+      field.addEventListener(eventName, function () {
+        if (field.id === 'regPassword') {
+          const confirmField = form.querySelector('#regConfirmPassword');
+          if (confirmField && confirmField.dataset.touched === 'true') {
+            const confirmErr = validateFieldValue(form, confirmField);
+            if (confirmErr) showFieldError(confirmField, confirmErr);
+            else clearFieldError(confirmField, true);
+          }
+        }
+
+        const err = validateFieldValue(form, field);
+        if (field.dataset.touched === 'true') {
+          if (err) {
+            showFieldError(field, err);
+          } else {
+            clearFieldError(field, field.hasAttribute('required'));
+          }
+        } else if (!err && field.hasAttribute('required')) {
+          clearFieldError(field, true);
+        }
+        syncSubmitButton(form);
+      });
+    });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!validateFormAndDisplayErrors(form)) {
+        if (typeof showToast === 'function') {
+          showToast('Please fill in all required (*) fields correctly before submitting.', 'error');
+        }
+        return;
+      }
+      onValidSubmit(form);
+    });
+
+    // Initial button state check
+    syncSubmitButton(form);
+  }
+
+  // --- 1. General Contact Form (contact.html) ---
   const contactForm = document.getElementById('generalContactForm');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name = contactForm.querySelector('#contactName')?.value.trim();
-      const email = contactForm.querySelector('#contactEmail')?.value.trim();
-      const phone = contactForm.querySelector('#contactPhone')?.value.trim();
-      const message = contactForm.querySelector('#contactMessage')?.value.trim();
-
-      if (!name || name.length < 2) {
-        showToast('Please enter your full name (minimum 2 characters).', 'error');
-        return;
-      }
-      if (!email || !isValidEmail(email)) {
-        showToast('Please enter a valid email address.', 'error');
-        return;
-      }
-      if (!phone || !isValidPhone(phone)) {
-        showToast('Please enter a valid phone number.', 'error');
-        return;
-      }
-      if (!message || message.length < 10) {
-        showToast('Please provide a detailed message (minimum 10 characters).', 'error');
-        return;
-      }
-
+  attachLiveValidation(contactForm, function (form) {
+    const name = form.querySelector('#contactName')?.value.trim();
+    if (typeof showToast === 'function') {
       showToast(`Thank you ${name}! Your enquiry has been received (Demonstration Mode - Frontend validated).`, 'success');
-      contactForm.reset();
+    }
+    form.reset();
+    resetValidationState(form);
+  });
+
+  // --- 2. Bulk Order Enquiry Form (index.html & contact.html) ---
+  document.querySelectorAll('#bulkEnquiryForm').forEach(bulkForm => {
+    attachLiveValidation(bulkForm, function (form) {
+      const oilType = form.querySelector('#bulkOilType')?.value;
+      const quantity = form.querySelector('#bulkQuantity')?.value.trim();
+      if (typeof showToast === 'function') {
+        showToast(`Bulk quotation request received for ${quantity} of ${oilType}! We will reach out shortly. (Demonstration Mode)`, 'success');
+      }
+      form.reset();
+      resetValidationState(form);
     });
-  }
+  });
 
-  // --- Bulk Order Enquiry Form Validation ---
-  const bulkForm = document.getElementById('bulkEnquiryForm');
-  if (bulkForm) {
-    bulkForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name = bulkForm.querySelector('#bulkName')?.value.trim();
-      const phone = bulkForm.querySelector('#bulkPhone')?.value.trim();
-      const email = bulkForm.querySelector('#bulkEmail')?.value.trim();
-      const oilType = bulkForm.querySelector('#bulkOilType')?.value;
-      const quantity = bulkForm.querySelector('#bulkQuantity')?.value.trim();
-      const packaging = bulkForm.querySelector('#bulkPackaging')?.value;
-      const message = bulkForm.querySelector('#bulkMessage')?.value.trim();
-
-      if (!name) {
-        showToast('Please enter your business or customer name.', 'error');
-        return;
+  // --- 3. Quick Product Enquiry Modal Form (index.html, home-2.html, products.html) ---
+  document.querySelectorAll('#modalQuickEnquiryForm').forEach(modalEnquiryForm => {
+    attachLiveValidation(modalEnquiryForm, function (form) {
+      const oil = form.querySelector('#enquiryModalOilType')?.value.trim() || 'Cold-Pressed Oil';
+      if (typeof showToast === 'function') {
+        showToast(`Enquiry for "${oil}" successfully registered! (Demo mode)`, 'success');
       }
-      if (!phone || !isValidPhone(phone)) {
-        showToast('Please enter a valid contact phone number.', 'error');
-        return;
-      }
-      if (!email || !isValidEmail(email)) {
-        showToast('Please enter a valid business email address.', 'error');
-        return;
-      }
-      if (!oilType) {
-        showToast('Please select your required cold-pressed oil type.', 'error');
-        return;
-      }
-      if (!quantity) {
-        showToast('Please enter the estimated quantity required (e.g. 200 Litres).', 'error');
-        return;
-      }
-      if (!packaging) {
-        showToast('Please choose your preferred packaging type.', 'error');
-        return;
-      }
-
-      showToast(`Bulk quotation request received for ${quantity} of ${oilType}! We will reach out shortly. (Demonstration Mode)`, 'success');
-      bulkForm.reset();
-    });
-  }
-
-  // --- Modal Quick Enquiry Form ---
-  const modalEnquiryForm = document.getElementById('modalQuickEnquiryForm');
-  if (modalEnquiryForm) {
-    modalEnquiryForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name = this.querySelector('#modalEnquiryName')?.value.trim();
-      const phone = this.querySelector('#modalEnquiryPhone')?.value.trim();
-      const oil = this.querySelector('#enquiryModalOilType')?.value.trim();
-
-      if (!name || !phone) {
-        showToast('Please fill in your name and phone number.', 'error');
-        return;
-      }
-
-      showToast(`Enquiry for "${oil}" successfully registered! (Demo mode)`, 'success');
-      const modalEl = document.getElementById('quickEnquiryModal');
+      const modalEl = form.closest('.modal');
       if (modalEl && typeof bootstrap !== 'undefined') {
         const modalInstance = bootstrap.Modal.getInstance(modalEl);
         if (modalInstance) modalInstance.hide();
       }
-      modalEnquiryForm.reset();
+      form.reset();
+      resetValidationState(form);
     });
-  }
+  });
 
-  // --- Login Form Validation ---
+  // --- 4. Blog Newsletter Form (blog.html) ---
+  const blogNewsletterForm = document.getElementById('blogNewsletterForm');
+  attachLiveValidation(blogNewsletterForm, function (form) {
+    const email = form.querySelector('#blogNewsletterEmail, input[type="email"]')?.value.trim();
+    if (typeof showToast === 'function') {
+      showToast(`Subscribed successfully! Updates will be sent to ${email}`, 'success');
+    }
+    form.reset();
+    resetValidationState(form);
+  });
+
+  // --- 5. Coming Soon Launch Notify Form (coming-soon.html) ---
+  const comingSoonForm = document.getElementById('comingSoonForm');
+  attachLiveValidation(comingSoonForm, function (form) {
+    const email = form.querySelector('#comingSoonEmail, input[type="email"]')?.value.trim();
+    if (typeof showToast === 'function') {
+      showToast(`Thank you! You are on the VIP launch list: ${email}`, 'success');
+    }
+    form.reset();
+    resetValidationState(form);
+  });
+
+  // --- 6. Staff Login Form (login.html) ---
   const loginForm = document.getElementById('loginForm');
-  if (loginForm) {
-    loginForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const email = loginForm.querySelector('#loginEmail')?.value.trim();
-      const pass = loginForm.querySelector('#loginPassword')?.value;
-
-      if (!email || !isValidEmail(email)) {
-        showToast('Please enter a valid email address.', 'error');
-        return;
-      }
-      if (!pass || pass.length < 6) {
-        showToast('Password must be at least 6 characters.', 'error');
-        return;
-      }
-
+  attachLiveValidation(loginForm, function () {
+    if (typeof showToast === 'function') {
       showToast('Login successful! Redirecting to home page...', 'success');
-      setTimeout(() => {
-        window.location.href = 'index.html';
-      }, 1000);
-    });
-  }
+    }
+    setTimeout(() => {
+      window.location.href = 'index.html';
+    }, 1000);
+  });
 
-  // --- Registration Form Validation ---
+  // --- 7. Partner Registration Form (register.html) ---
   const registerForm = document.getElementById('registerForm');
-  if (registerForm) {
-    registerForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name = registerForm.querySelector('#regFullName')?.value.trim();
-      const email = registerForm.querySelector('#regEmail')?.value.trim();
-      const phone = registerForm.querySelector('#regPhone')?.value.trim();
-      const pass = registerForm.querySelector('#regPassword')?.value;
-      const confirmPass = registerForm.querySelector('#regConfirmPassword')?.value;
-      const terms = registerForm.querySelector('#regAgreeTerms')?.checked;
-
-      if (!name || name.length < 3) {
-        showToast('Please enter your full legal name.', 'error');
-        return;
-      }
-      if (!email || !isValidEmail(email)) {
-        showToast('Please enter a valid email address.', 'error');
-        return;
-      }
-      if (!phone || !isValidPhone(phone)) {
-        showToast('Please enter a valid phone number.', 'error');
-        return;
-      }
-      if (!pass || pass.length < 6) {
-        showToast('Password must be at least 6 characters long.', 'error');
-        return;
-      }
-      if (pass !== confirmPass) {
-        showToast('Passwords do not match! Please re-check.', 'error');
-        return;
-      }
-      if (!terms) {
-        showToast('Please agree to the Terms of Service & Privacy Policy.', 'error');
-        return;
-      }
-
+  attachLiveValidation(registerForm, function (form) {
+    if (typeof showToast === 'function') {
       showToast('Account registered successfully! Redirecting to login...', 'success');
-      setTimeout(() => {
-        window.location.href = 'login.html';
-      }, 1200);
-    });
-  }
+    }
+    form.reset();
+    resetValidationState(form);
+    setTimeout(() => {
+      window.location.href = 'login.html';
+    }, 1200);
+  });
 });
-

@@ -103,6 +103,35 @@
 }
 
 /* Forms */
+[dir="rtl"] .form-control,
+[dir="rtl"] .form-select,
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="url"],
+[dir="rtl"] input[type="number"],
+[dir="rtl"] input[type="search"] {
+  text-align: right;
+}
+
+[dir="rtl"] .form-control::placeholder,
+[dir="rtl"] input[type="email"]::placeholder,
+[dir="rtl"] input[type="url"]::placeholder,
+[dir="rtl"] input[type="number"]::placeholder,
+[dir="rtl"] input[type="search"]::placeholder {
+  text-align: right;
+}
+
+[dir="rtl"] input[type="tel"] {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: right;
+}
+
+[dir="rtl"] input[type="tel"]::placeholder {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: right;
+}
+
 [dir="rtl"] .password-toggle-btn {
   right: auto;
   left: 12px;

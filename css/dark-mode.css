@@ -619,3 +619,19 @@
   color: var(--secondary-light) !important;
 }
 
+/* Form Validation in Dark Mode */
+[data-theme="dark"] .field-error-msg {
+  color: #FF8A80;
+}
+
+[data-theme="dark"] .form-control.is-invalid,
+[data-theme="dark"] .form-select.is-invalid {
+  border-color: #FF6B6B !important;
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.18) !important;
+}
+
+[data-theme="dark"] .form-control.is-valid,
+[data-theme="dark"] .form-select.is-valid {
+  border-color: #74C67A;
+}
+

@@ -192,7 +192,7 @@
             <h3 class="fw-bold mb-2">General Message</h3>
             <p class="text-muted small mb-4">Have a quick question about products, retail bottles, or store visits? Drop us a line.</p>
 
-            <form id="generalContactForm">
+            <form id="generalContactForm" novalidate>
               <div class="mb-3">
                 <label for="contactName" class="form-label">Full Name *</label>
                 <input type="text" class="form-control" id="contactName" placeholder="Enter your full name" required>
@@ -225,7 +225,7 @@
               Please specify your requirements below. Our commercial desk will calculate freight, volume discounts, and provide an official quotation within 24 hours.
             </p>
 
-            <form id="bulkEnquiryForm">
+            <form id="bulkEnquiryForm" novalidate>
               <div class="row g-3">
                 <!-- Customer Name -->
                 <div class="col-md-6">
@@ -281,7 +281,7 @@
 
                 <!-- Message -->
                 <div class="col-12">
-                  <label for="bulkMessage" class="form-label">Message / Delivery Pincode &amp; Custom Notes</label>
+                  <label for="bulkMessage" class="form-label">Message / Delivery Location <span class="text-muted fw-normal small">(Optional)</span></label>
                   <textarea class="form-control" id="bulkMessage" rows="3" placeholder="Provide destination city/pincode or specific delivery schedule requirements..."></textarea>
                 </div>
 
@@ -398,7 +398,6 @@
           &copy; <span class="current-year">2026</span> <strong>Vaagai Chekku Oil Mill</strong>. All Rights Reserved.
         </div>
         <div class="d-flex flex-wrap gap-3">
-          <a href="login.html" class="text-muted">Staff Login</a>
           <a href="404.html" class="text-muted">404 Page</a>
           <a href="coming-soon.html" class="text-muted">Coming Soon</a>
         </div>

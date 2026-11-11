@@ -129,9 +129,9 @@
             <h5 class="fw-bold mb-2">Get Notified on Launch Day</h5>
             <p class="text-muted small mb-4">Be the first to order freshly pressed oils from our new solar cold-press batch.</p>
             
-            <form onsubmit="event.preventDefault(); const em = this.querySelector('input').value; if(em){ showToast('Thank you! You are on the VIP launch list: ' + em, 'success'); this.reset(); }">
+            <form id="comingSoonForm" novalidate>
               <div class="input-group">
-                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                <input type="email" class="form-control" id="comingSoonEmail" placeholder="Enter your email address *" aria-label="Email Address" required>
                 <button class="btn btn-primary-custom" type="submit">Notify Me</button>
               </div>
             </form>
@@ -168,7 +168,6 @@
         <a href="index.html" class="text-muted">Home 1</a>
         <a href="home-2.html" class="text-muted">Home 2</a>
         <a href="products.html" class="text-muted">Products</a>
-        <a href="login.html" class="text-muted">Staff Login</a>
         <a href="404.html" class="text-muted">404 Page</a>
         <a href="contact.html" class="text-muted">Contact Us</a>
       </div>
@@ -180,6 +179,7 @@
   <script src="js/rtl.js"></script>
   <script src="js/navigation.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/forms.js"></script>
 </body>
 </html>
 
